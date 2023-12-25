@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hello {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+/* .world {
+    animation-duration: 2s;
+    animation-name: close;
+} */
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+};
+
+/* @keyframes close {
+    0% {
+        margin-right: 100%;
+    }
+
+    100% {
+        margin-right: 0%;
+    }
+} */
